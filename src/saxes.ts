@@ -1,6 +1,6 @@
-import * as ed5 from "xmlchars/xml/1.0/ed5";
-import * as ed2 from "xmlchars/xml/1.1/ed2";
-import * as NSed3 from "xmlchars/xmlns/1.0/ed3";
+import * as ed5 from "https://deno.land/x/notranspile_xmlchars@v2.2.0-deno/xml/1.0/ed5.ts";
+import * as ed2 from "https://deno.land/x/notranspile_xmlchars@v2.2.0-deno/xml/1.1/ed2.ts";
+import * as NSed3 from "https://deno.land/x/notranspile_xmlchars@v2.2.0-deno/xmlns/1.0/ed3.ts";
 
 import isS = ed5.isS;
 import isChar10 = ed5.isChar;
